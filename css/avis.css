@@ -1,0 +1,93 @@
+/* desktop version */
+@media screen and (min-width: 800px){
+    #bloc-avis-comment {
+        display: flex;
+        justify-content: space-around;
+        border: solid grey;       
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        background-color: grey;
+        padding: 20px;
+        margin: 20px auto;      
+    }
+
+    #bloc-avis , #bloc-comment{
+        width: 50%;
+
+    }
+    .avis{
+        width: auto;
+    }
+    #bloc-comment{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    
+}
+/* version mobile */
+
+
+#titre-avis{
+    text-align: center;
+}
+
+#bloc-avis-comment {
+    border: solid #f9f3f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    margin: 20px auto;   
+    width: 100%;
+    border-radius: 15px;
+    background-color: #f9f3f4;
+    padding: 20px;  
+}
+
+.avis, #commentaire,#Name{
+    border-radius:15px ;
+    width: 80%;    
+    align-items: center;
+    margin-left: 7%;
+    margin-right: 10%;
+    padding-left: 10px;
+    background-color: #f9f3f4;
+    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+#comment{
+    border-radius: 15px;
+    width: 20%;
+    margin-right: 10%;
+    margin-left: 70%;
+    background-color: rgba(0, 0, 0, 0.19);
+    border: 0;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+    
+}
+
+#commentaire {
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#bloc-avis p{
+    text-align: center;
+}
+#bloc-avis-comment{
+    transition: all 1s;
+}
+
+#bloc-avis-comment:hover {
+    transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 800px) {
+    #bloc-avis-comment{
+        width: 80%;
+    }
+}
